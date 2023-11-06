@@ -1,0 +1,29 @@
+
+14-july-2023
+------------
+DOM Document object model
+
+nammal oru page create cheyth(ex:index) content add cheyth run cheyyunna timil 
+browser oru tree structure create cheyyunnund athine aanu dom ennu parayunnath
+
+tree structure
+
+body
+
+h1  div    div
+
+     p       h1  p 
+
+
+Dom methods
+-----------
+
+dom is an object(document object)
+
+- document.getElementsByTagName('tagname)
+- document.getElementsByClassName('classname')
+- document.getelementById('id')
+Instead of these we can use :-
+- document.querySelector('tagname/.class/#id')  // only one output
+- document.querySelectorAll('tagname/.class/#id') // all
+

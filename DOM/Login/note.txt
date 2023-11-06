@@ -1,0 +1,38 @@
+19-0-2023
+
+eppolum variable il store cheyyan pattilla, variable aaa 
+oru page il mathrame kittooo... apo permanent aayi store 
+cheyyan aanu local storage use cheyunnath...
+Local storage  
+-------------
+Used to store data permanently
+database
+
+JSON / XML
+
+JS -> JSON = JSON.stringify()
+JSON -> JS = JSON.parse()
+
+storage area operations
+-----------------------
+C - create = localStorage.setItem(key,value)
+R - read   = localStorage.getItem(key)
+U - update = localStorage.setItem(key,value)
+D - delete = localStorage.removeItem(key)
+
+h/w
+
+login form
+----------
+acc
+pwd
+
+signup form
+-----------
+acc 
+username 
+pwd 
+confirm password
+
+
+

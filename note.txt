@@ -1,0 +1,376 @@
+june 5 - monday
+---------------
+js
+--
+..
+2 types languages
+high level human understandable
+low level m/c understandable
+
+to convert low to high and high to low we need an interpreter that is called node.(cmd)
+.......................................
+pre-defined
+----------- 
+() - function
+.() - method
+..............................
+run 
+---
+node .\basic.js(filename)
+................................................................................................................................
+datatypes
+.........
+1. numbers
+    integers + and - natural numbers  1,5,- 4 etc
+    float  1.9, -1.9
+2. string - chars 'Hello',"Hai"
+3. boolean - true or false 
+etc....
+
+data storing
+............
+
+1.variables:- to store a data, 
+          - temporary storing method
+2.to store data to the variable we need a operator = assignment operator
+3.variable declaration - var , let , const 
+
+syntax: declaration variable = data
+
+eg: var num = 123 ; 
+
+variable declaring types:-
+-------------------------
+var we can change the values as per our need value will be overrided, default declaration will be var when missing the type
+let inside a block we can store data as private 
+const is the constant value, in the case of no need to change the values.
+...............................................................................................................................
+rules variable naming
+.....................
+my number = 0;
+1. No space , instead of this 
+                           my_number  - snake notation
+                           myNumber   - camel notation
+2. Do not start with number , instead _(underscore),num1,nu8m,,etc.
+3. do not use operators.
+
+...................................................................
+1. strictly typed languages 
+    int num;
+    num=6;
+    eg: java, c,c++
+2. Dynamically typed 
+   num = 0;
+   num = 'hai';
+- js,python
+...................................................................
+Inbuild function to check the type of a variable.
+typeof();
+
+console.log(typeof(num));
+.........................................................................................................................................
+june 6-2023
+------------
+1. output methods
+
+display.js
+
+console.log('The company name is',companyName,'and the location is',locationName);
+console.log('The name of the company is'+companyName+'and the location is'+locationName);
+console.log(`the company name is ${companyName} and the location is ${locationName}`);
+
+2. operators
+
+    1. assignment operators  =
+    2. arithmatic operators  +, -, * ,/ ,**(exponent) ,%(modulus -> reminder when divition)
+    3. Relational operator
+    4. Increment & decrement
+    5. compound asignment / shorthand operator
+    6. Logical operators -> refer -> operator.js
+
+..................................................................................................
+7-june
+1 problems.js
+2 flow of controls
+    -decision making -if,else,else if,switch,ternary operator
+    -looping - while,for
+    -switching - break,continue.
+................................................................................................
+8-june-23
+
+1.problems->decisionmaking.js
+2.for loop
+-----------------------------------------------------------------------------------------------
+9-june-23
+for loop continues...
+//we can skip initializatin, interprete knows the initialize value when condition and increment,(for(;n1<=n2;n1++))
+//let : only inside the block, for(let n1=5;n1<=n2;n1++)
+
+1.factorial 3= 1*2*3 = 6
+2.cube
+3.square
+4.fibonacci series
+-------------------------------------------------------------------------------------------------
+june-10-23
+
+While loop
+..........
+//initialization
+//while(condition){
+  //  loop code
+  // increment/decrement
+//}
+
+Break / Continue
+to break/stop an execution we can use break /continue
+
+--------------------------------------------------------------------------------------------------
+june 12-2023
+
+prime numbers
+---------------------------------------------------------------------------------------------------
+june-13-23
+
+Pattern Programs
+-----------------------------------------------------------
+june-14-23
+
+Pattern pgms
+---------------------------------
+june-15-2023
+
+pattern pgms 
+
+
+For better code:-
+.................
+
+1.code reusability ->functions
+2.time ->loops - no.of iterations  (oru loopne break cheyyan upayogikunnath=break;)
+3.space->variables nte ennam kurakuka
+4.length->no.of lines
+
+functions
+.........
+rules same as variables
+-1.without argument
+-2.with argument
+
+Argument:- Value change cheyth/ aayi kodukunna/varunna variables.
+
+--------------------------------------------------------------------------
+june 16-23 friday
+
+functions
+........
+-3.function with argument and return - using return keyword
+
+return:-
+can output only one value.
+oru iteration kazhinjal return cheyum next iteration work aavilla...
+example:
+
+function displayi(){
+    for(i=1;i<=5;i++){
+        return i
+    }
+}
+console.log(displayi());
+
+output is 1. only one iteration.
+
+---> check for prime number or not 
+
+function primeNum(n) {
+    for (i = 2; i < n; i++) {
+        if (n % i == 0) {
+            return "not prime"
+        }
+    }
+    return "prime"
+}
+console.log(primeNum(6));
+
+now onwards use this method
+
+
+4-arrow function :-
+
+* functionName=()=>{
+    //code
+}
+
+* functionName=argument
+* functionName=(arg1,arg2,...)
+----------------------------------------------------------------------------
+19-06-2023 monday
+1.test
+-------------------------------
+20-june-2023
+
+-decision making - switch,ternary operator
+ternary operator il kure output or operations onnum cheyyan pattilla
+only one output
+
+- string
+..........
+data collection
+
+linear data structure: same line/same order 
+                     : index numbers 0,1,2,3,4
+                   s
+                     ------------------------------------------
+                     | l  |   u |m i na r 
+                     ------------------------------------------
+                        0     1   2 3 4 5 ......
+------------------------------------------------
+21-june-2023
+string--
+floaring - convert float value to integer = parseInt
+problems
+--------------------------------------------------
+22-june-2023
+string Inbuild methods
+startsWith to check the given string at the starting of the string
+endsWith   to check the given string at the ending of the string
+
+-validation phone
+                                            s
+/substring creation  slice     ---------------------------
+                                 a p p l e
+                                 0 1 2 3 4 5
+                                -5-4-3-2-1
+
+ Array
+ -----
+ data collection
+ to store collection of data
+ ,can store diff datatypes->Hetrogeneous data collection
+ ------------------------------------------------------------
+ 23-june-2023 friday
+
+ spread operator [...]
+ push method in array...add multiple values to an array
+
+ empty array= []
+ ----------
+ 24
+ time cmplexity
+ ----------
+ 26-june
+ nested array
+
+ --------------
+ 27-june
+ array methods
+
+ //sort()
+ //map()
+ //filter()
+ //reduce()
+ //reduceright()
+ //find()
+ //some()
+ //forEach()
+ //includes()
+ //flat()
+--------------------------------
+ 3-july-2023
+
+ arraymethods
+ 1 sort - asec, desc no new array 2 argmnts
+ 2 map -  creating new array having same no of elements 1 argmnts
+ 3 filter - new array, satisfying a particular condition 1 argments
+ 4 push - to add new element to a given array
+ 5 pop - to remove last element from the given array
+ 6 find - return the first element that satisfy the condition 
+ 7 reduce - highest value,lowest value, sum, avg, reduce array value to a single value  2 arguments
+ 8 some - it returns true or false is the array satisfy the given condition  1 argmnts
+ 9 reduceright
+ 10 flat
+ 11 includes
+ 12 forEach
+ ---------------------------------------------
+ 4-july-2023
+
+ oops 
+ keyword class classname firstletter should be capital letter
+ inside class block method
+
+ object creation using new keyword.
+ store it to a variable
+
+ call the object same as function
+ ----------------------------------------------
+ 5-july-2023
+ oops continues
+instance:
+ arguments ne class nu ullil ella iathum use cheyyan vendi namuk attributes(arguments) ne instance variable
+ aakkan pattum..this keyword aanu athinu use cheyyunnath
+
+ constructor: object create cheyyumbol thanne object ne initialize/run cheyyikkan vendi
+------------------------------------------------------------------------------------------------
+6-july-2023
+
+ oops
+ ---
+ class
+ object 
+ reference
+ instance variable
+ constructor
+
+ Inheritance
+ Polymorphism
+ Abstraction //h/w  - 
+ It is the way of hiding the implementation details and showing the functionality to the users, 
+ hiding the irrelevant data and showing only required data to the users
+ Encapsulation //h/w - data to capsule
+-------------------------------------------------------------------------------------------------
+7-july-2023
+
+object
+--------------------
+10-july
+h/w
+problem 
+------------------
+11-july-2023
+
+//Find total no.of mobiles
+console.log(arrayname.length);
+------------------
+15-july
+dom 
+
+-------
+17-july
+calc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+                        
+                           
+
+
+
+
+
+
+
